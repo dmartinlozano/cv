@@ -1,265 +1,278 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    position: left
+    about: False
+    education: True
 
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: David Martín Lozano
+    tagline: Desarrollador software
+    avatar: profile.png
 
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
-
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
-
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+    email: david.martin.lozano@gmail.com
+    linkedin: david-martin-lozano-831a5a28
+    github: dmartinlozano
 
 career-profile:
-    title: Career Profile
+    title: Carrera Profesional
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      He desarrollado mi carrera profesional en distintos ámbitos (seguros, banca, telecomunicaciones y administración pública). 
+
+      Si bien la mayor parte de mi carrera he trabajado con Java, he trabajado con diferentes tecnologías tanto de "back" como de "front". 
+
+      Debido a las características de los proyectos en los que he trabajado, he realizado también tareas de devOps (siempre ligado a la puesta en producción del código) y automatización de pruebas de QA (pruebas unitarias, integración, aceptación y rendimiento).
 education:
-    title: Education
+    title: Educación
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: Ingeniero Técnico Informático de Sistemas
+        university: Universidad Pontificia de Salamanca
+        time: 2000 - 2005
 
 experiences:
-    title: Experiences
+    title: Experiencia laboral
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Desarrollador web
+        time: 2019 - Actualidad
+        company: Paradigma Digital
+        client: Mapfre
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Desarrollador software para el departamento "BigCities" de Mapfre de la aplicación [Yip Yop](https://www.yipyoop.es/).
+           - Desarrollo en parte front (ionic con angular): PWA, android y iOS.
+           - Desarrollo en parte back (AWS) con integración con los sistemas de Mapfre, OneTrust y Redsys.
+           - Desarrollo en automatización de QA.
+        technologies:
+          title: Tecnologías
+          resume:
+            - Javascript
+        frameworks:
+          title: Frameworks
+          resume:
+            - Ionic con cordova (PWA, iOS y Android)
+            - AWS Serverless (AWS Lambda con node, AWS Dynanodb, AWS StepFunctions, AWS CodePipeline).
+            - Selenium-js con webdriver.io
+            - CicleCI
+            - Visual Studio Code
+      - role: Desarrollador software
+        time: 05/2019 - 12/2019
+        company: Paradigma Digital
+        client: Banco Santander
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Desarrollador software para Banco Santander en departamento OpenPlatform APIs. Evaluación de distintos "IAMs" para la futura implementación de un "GlobalId" de todas las plataformas del banco.
+        frameworks:
+          title: Frameworks
+          resume:
+            - Azure Devops
+            - Transmit Security
+            - ForgeRock
+            - Okta
+            - Agile Scrum
+      - role: Desarrollador software y devops
+        time: 08/2018 - 04/2019
+        company: Paradigma Digital
+        client: BBVA
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+          Desarrollador software para BBVA en departamento de monitorización de la plataforma ECS en los proyectos:
+           - Sigma: API para la gestión de alarmas.
+           - Automatización del despliegue de la arquitectura en AWS.
+        technologies:
+          title: Tecnologías
+          resume:
+            - Go (golang)
+            - Docker
+            - Ansile
+        frameworks:
+          title: Frameworks
+          resume:
+            - JIRA
+            - Gitbucket
+            - Jenkins
+            - Visual Studio Code
+      - role: Desarrollador web, devops y Automaticación QA
+        time: 08/2017 - 07/2018
+        company: Barrabes Meaning
+        client: Santander Universidades
+        details: |
+          Desarrollador software en parte back, devOps y automatización de QA para aplicación web de [Santanderx](hhttps://www.santanderx.com).
+        technologies:
+          title: Tecnologías
+          resume:
+            - Spring Boot
+            - Maven
+            - Docker
+            - Docker compose
+            - Node js
+            - Mongo
+            - Kafka
+            - Kubernetes
+            - Ansible
+            - kong en aws
+            - Aws ec2, route53, cognito, lambda, cloudFormation
+            - selenium
+            - cucumber-js
+            - gatling
+        frameworks:
+          title: Frameworks
+          resume:
+            - JIRA
+            - Agile Scrum
+      - role: Automatización QA
+        time: 02/2016 - 07/2017
+        company: Datio
+        client: BBVA
+        details: |
+          Desarrollador software en departamento de QA para la automatización de test de Integración, Aceptación y de Rendimiento para los distintos proyectos y CORE de la empresa, 'joint venture' de BBVA y Stratio.
+        technologies:
+          title: Tecnologías
+          resume:
+            - Kafka
+            - Postgress y Cassandra
+            - Java J2SE
+            - Python
+            - Maven
+            - Docker
+            - Docker-compose
+            - Selenium
+            - Cucumber
+            - Radish-bdd
+            - Yeoman
+            - Gatling
+            - Ansible
+            - Jenkins
+            - Nexus
+            - Git-Flow
+        frameworks:
+          title: Frameworks
+          resume:
+            - JIRA
+            - DC/OS
+            - MEsos
+            - Agile Scrum
+      - role: Desarrollador software
+        time: 06/2015 - 01/2016
+        company: Sngular
+        client: Indra
+        details: |
+          Desarrollador software en parte back (spring, API RESTful, apiari, maven, jenkins, TDD) y font (angularjs, boootstrap, sass, gulp) para aplicación de gestor de sensores de tráfico en carreteras en Kuwait para Indra.
+        technologies:
+          title: Tecnologías
+          resume:
+            - Spring Boot
+            - Apiari
+            - Maven
+            - Jenkins
+            - Angularjs
+            - Sass
+        frameworks:
+          title: Frameworks
+          resume:
+            - JIRA
+            - Agile Scrum
+      - role: Desarrollo arquitectura BTT
+        time: 03/2013 - 05/2015
+        company: Quality Objects
+        client: Banco Popular
+        details: |
+          Desarrollador software Java J2EE en la arquitectura de IBM BTT Bank Transformation Toolkint. Diseño e implementación de la capa de presentación y datos. Implementación de tests de rendimiento de la arquitectura.
+        technologies:
+          title: Tecnologías
+          resume:
+            - Java J2EE
+            - IBM BTT
+            - SOAP
+            - Dojo
+            - Jmeter
+            - JProfiler
+        frameworks:
+          title: Frameworks
+          resume:
+            - Rational Application Developer
+            - Rational Performance Tester
+            - WebShpere Application Server
+      - role: Modelado BTT y BPM
+        time: 02/2012 - 02/2013
+        company: Quality Objects
+        client: Banco Popular
+        details: |
+          Desarrollador en un proyecto de Gestion Documental: Archivo desplazado para Grupo Banco Popular Español.
+           - IBM Bussines Process 7.5. Modelado de flujos de negocio.
+           - IBM BTT Bank Transformation Toolkint. Diseño e implementación de la capa de presentación y datos.
+        technologies:
+          title: Tecnologías
+          resume:
+            - Java
+            - Javascript
+        frameworks:
+          title: Frameworks
+          resume:
+            - IBM BTT
+            - IBM BPM 7.5
+      - role: Aplicación Web para contenidos multimedia
+        time: 03/2011 - 02/2012
+        company: Quality Objects
+        client: Alcatel-Lucent
+        details: |
+          Desarrollador en el proyecto onLine Commerce Program2: Aplicación J2EE para ampliación e integración de plataforma externa de contenidos online (thePlatform) en departamento IPTV de Alcatel-Lucent.
+        technologies:
+          title: Tecnologías
+          resume:
+            - Java J2EE
+            - Spring MVC
+            - Hibernate
+            - Solr
+            - SVN
+            - Jetty
+            - Maven
+            - Hudson
+        frameworks:
+          title: Frameworks
+          resume:
+            - Eclipse
+            - Perforce
+            - Agile Scrum
+      - role: Desarrollador software
+        time: 03/2007 - 03/2011
+        company: Quality Objects
+        client: Alcatel-Lucent
+        details: |
+          Desarrollo java en el departamento I+D de Alcatel Lucent para los proyectos:
+          - CNM-CSA: Aplicación J2EE cliente/servidor que ofrece servicios AAA (Autentificación, Autorización y Credenciales de Acceso) en redes de telecomunicaciones para el control de elementos de red. Creación y automatización de herramientas de devOps y pruebas unitarias.
+          - CNM-CFMA: Aplicación J2EE cliente/servidor que ofrece servicios de alarmas en tiempo real de los elementos de una red.Creación y automatización de herramientas de devOps y pruebas unitarias.
+        technologies:
+          title: Tecnologías
+          resume:
+            - Java J2SE
+            - Schell scripting
+            - Perl
+            - Ant
+            - JBoss
+            - Mysql
+            - OpenLDAP
+            - Hudson
+        frameworks:
+          title: Frameworks
+          resume:
+            - Eclipse
+            - Clear Case
+            - Clear Quest
+            - QFtest
+      - role: Desarrollador de Aplicaciones Web
+        time: 8/2005 - 03/2007
+        company: AXPE Consulting
+        client: Madrid Digital
+        details: |
+          Desarrollo de distintos proyectos web del portal madrid.org (SILEX, PJCC, SECO) con éstas funciones:
+          - Desarrollo, migraciones y mantenimiento de aplicaciones web en J2EE con modelo MVC propietario desplegado en servidores de aplicaciones OC4J
+          - Desarrollo de aplicaciones en Crystal Reports e integración con las aplicaciones Java.
+        technologies:
+          title: Tecnologías
+          resume:
+            - Java
+            - JSP
+            - JSTL
+            - Javascript
+            - DWR (AJAX)
+            - Oracle
+        frameworks:
+          title: Frameworks
+          resume:
+            - Netbeans
+            - StarTeam
+      
