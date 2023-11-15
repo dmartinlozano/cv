@@ -29,12 +29,30 @@ education:
 experiences:
     title: Experiencia laboral
     info:
+      - role: Desarrollador software
+        time: 10/2023 - Actualidad
+        company: Paradigma Digital
+        client: BME
+        details: |
+          Desarrollador java microservicios para desarrollo de nueva infraestructura para cliente BME por nuevos requerimientos del regulador EMIR-Refit.
+        technologies:
+          title: Tecnologías
+          resume:
+            - Java 1.8 (spring-boot)
+            - Procesamiento de xmls
+            - Kafka
+            - Openshift
+            - ArgoCD
+        frameworks:
+          title: Frameworks
+          resume:
+           - Intellij
       - role: Desarrollador web
-        time: 12/2019 - Actualidad
+        time: 2019 - 10/2023
         company: Paradigma Digital
         client: Mapfre
         details: |
-          Desarrollador software para el departamento "BigCities" de Mapfre de la aplicación [Yip Yop](https://www.yipyoop.es/).
+          Desarrollador software para el departamento "BigCities" de Mapfre de la aplicación Yip Yop.
            - Desarrollo en parte front (ionic con angular): PWA, android y iOS.
            - Desarrollo en parte back (AWS) con integración con los sistemas de Mapfre, OneTrust y Redsys.
            - Desarrollo en automatización de QA.
@@ -51,7 +69,7 @@ experiences:
             - CicleCI
             - Visual Studio Code
       - role: Desarrollador software
-        time: 05/2019 - 12/2019
+        time: 05/2019 - 10/2019
         company: Paradigma Digital
         client: Banco Santander
         details: |
