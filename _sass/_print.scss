@@ -59,4 +59,47 @@
       font-size: 7pt;
    }
 
+   .project-header-screen{
+      display: none !important;
+    }
+
+   .project-header-print {
+      display: flex;
+      align-items: flex-start;
+      padding: 10px;
+    }
+
+    
+
+    .project-header-print .content {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      overflow: hidden;
+
+    }
+
+    .project-header-print .image {
+      flex: 0 0 auto;
+      margin-right: 10px;
+    } 
+
+    .project-header-print .title {
+      font-size: 1.5em;
+      margin-bottom: 5px;
+    }
+
+    .project-header-print .link {
+      flex: 1;
+      display: block;
+      overflow: auto;
+    }
+
+    .project-link{
+      display: block;
+      overflow-wrap: anywhere;
+      word-wrap: break-word;
+      hyphens: auto;
+    }
+
 }

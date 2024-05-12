@@ -178,6 +178,7 @@ p {
   }
 
   .experiences-section,
+  .projects-section,
   .educations-section {
     .item {
       margin-bottom: 30px;
@@ -219,22 +220,6 @@ p {
   .cert-org {
     margin-bottom: 10px;
     color: $text-grey;
-  }
-
-  .project-title {
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 5px;
-    color: darken($theme-color, 15%);
-  }
-  .projects-section {
-    .intro {
-      margin-bottom: 30px;
-    }
-    .item {
-      margin-bottom: 15px;
-    }
   }
 
   .publication-title {
@@ -291,3 +276,12 @@ p {
   }
 }
 
+.content{
+  margin-left: 20px;
+}
+
+@media screen {
+  .project-header-print{
+    display: none !important;
+  }
+}

@@ -9,7 +9,20 @@ sidebar:
 
     email: david.martin.lozano@gmail.com
     linkedin: david-martin-lozano-831a5a28
-    github: dmartinlozano
+    github: dmartinlozano 
+
+    languages:
+      title: Idiomas
+      info:
+        - idiom: Español
+          level: Nativo
+          
+education:
+    title: Educación
+    info:
+      - degree: Ingeniero Técnico Informático de Sistemas
+        university: Universidad Pontificia de Salamanca
+        time: 2000 - 2005
 
 career-profile:
     title: Carrera Profesional
@@ -19,12 +32,23 @@ career-profile:
       Si bien la mayor parte de mi carrera he trabajado con Java, he trabajado con diferentes tecnologías tanto de "back" como de "front". 
 
       Debido a las características de los proyectos en los que he trabajado, he realizado también tareas de devOps (siempre ligado a la puesta en producción del código) y automatización de pruebas de QA (pruebas unitarias, integración, aceptación y rendimiento).
-education:
-    title: Educación
-    info:
-      - degree: Ingeniero Técnico Informático de Sistemas
-        university: Universidad Pontificia de Salamanca
-        time: 2000 - 2005
+
+projects:
+      title: Proyectos Personales
+      info:
+        - title: Family Car Player
+          link: https://familycarplayer.github.io/
+          image: https://familycarplayer.github.io/assets/appicon.png
+          summary: | 
+            Proyecto personal desarrollado en Flutter.
+            Permite controlar mediante bluetooth el contenido multimedia que están viendo los niños que van en coche.
+        - title: Resolver Cifras y Letras
+          link: https://github.com/dmartinlozano/resolver_cifrasyletras_app
+          image: https://raw.githubusercontent.com/dmartinlozano/resolver_cifrasyletras_app/main/assets/icon_512x512.png
+          summary: |
+            Proyecto personal desarrollado en Flutter.
+            Resuelve el juego Cifras y Letras.
+            [Disponible también web para instalar](https://resolver-cifrasyletras.github.io/)  
 
 experiences:
     title: Experiencia laboral
@@ -38,7 +62,7 @@ experiences:
         technologies:
           title: Tecnologías
           resume:
-            - Java 1.8 (spring-boot)
+            - Java 18 (spring-boot)
             - Procesamiento de xmls
             - Kafka
             - Openshift

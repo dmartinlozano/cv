@@ -5,34 +5,43 @@
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+      <i class="fas fa-code-branch fa-stack-1x fa-inverse"></i>
     </span>
     {{ projects.title }}
   </h2>
 
-  {% if projects.intro %}
-  <div class="intro">
-      <p>{{ projects.intro }}</p>
-  </div><!--//intro-->
-  {% endif %}
+  {% for project in projects.info %}
+  <div class="panel panel-default">
+    <div class="panel-body">
+        <div class="meta">
 
-  {% for project in projects.assignments %}
-    <div class="item">
+          <div class="project-header-screen upper-row">
+            <img class="avatar" style="width: 50px;" src="{{ project.image }}"/>
+            <div class="upper-row content">
+              <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+            </div>
+          </div><!--//upper-row-->
 
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
+        <div class="project-header-print upper-row">
+          <img class="avatar" style="width: 50px;" src="{{ project.image }}"/>
+          <div class="content">
+            <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+            <div class="project-link">{{ project.link }}</div>
+          </div><!--//content-->
+        </div><!--//upper-row-->
+      </div><!--//meta-->
+
+        {% if project.summary %}
+        <div class="details">
+          {{ project.summary | markdownify }}
+        </div><!--//details-->
         {% endif %}
-      </span>
 
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
-
-    </div><!--//item-->
+    </div><!--//panel-body-->
+  </div><!--//panel-default-->
   {% endfor %}
 
 </section><!--//section-->
 {% endif %}
+
+
