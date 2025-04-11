@@ -37,8 +37,8 @@ projects:
       title: Proyectos Personales
       info:
         - title: Family Car Player
-          link: https://familycarplayer.github.io/
-          image: https://familycarplayer.github.io/assets/appicon.png
+          link: https://github.com/dmartinlozano/fcp_app
+          image: assets/images/fcp.png
           summary: | 
             Proyecto personal desarrollado en Flutter.
             Permite controlar mediante bluetooth el contenido multimedia que están viendo los niños que van en coche.
@@ -53,6 +53,41 @@ projects:
 experiences:
     title: Experiencia laboral
     info:
+      - role: Desarrollador software
+        time: 01/2024 - Actualidad
+        company: Paradigma Digital
+        client: O2
+        details: |
+          Desarrollador python para cliente O2 en el desarrollo de la aplicación de contratación y area privdada de los clientes de O2.
+        technologies:
+          title: Tecnologías
+          resume:
+            - Python 3.10
+            - Django
+            - PostgreSQL
+        frameworks:
+          title: Frameworks
+          resume:
+            - pyCharm
+      - role: Desarrollador software
+        time: 10/2023 - 12/2024
+        company: Paradigma Digital
+        client: Hispasat
+        details: |
+          Desarrollador node para para cliente Hispasat en el desarrollo de un Idp para la gestión de aplicaciones y usuarios de su Active Directory de Azure. La parte back desarrollada usa tecnología node+es6 y permite la interacción con un front mediante un api. A su vez, se conecta con sistemas Azure del cliente, Postgresql y openFGA. Métricas basadas en OpenTracing.
+        technologies:
+          title: Tecnologías
+          resume:
+            - Node es6, 
+            - Postgresql (sequelize)
+        frameworks:
+          title: Frameworks
+          resume:
+            - Microsoft graph (para EntraID/b2c)
+            - openFGA
+            - openTracing (OpenTelemetry-collector, Jaeger, Prometheus y Grafana)
+            - Docker y docker-compose
+            - postman y swagger.
       - role: Desarrollador software
         time: 10/2023 - Actualidad
         company: Paradigma Digital
