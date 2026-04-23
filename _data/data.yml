@@ -33,28 +33,30 @@ career-profile:
 
       Debido a las características de los proyectos en los que he trabajado, he realizado también tareas de devOps (siempre ligado a la puesta en producción del código) y automatización de pruebas de QA (pruebas unitarias, integración, aceptación y rendimiento).
 
-projects:
-      title: Proyectos Personales
-      info:
-        - title: Family Car Player
-          link: https://familycarplayer.github.io/
-          image: https://familycarplayer.github.io/assets/appicon.png
-          summary: | 
-            Proyecto personal desarrollado en Flutter.
-            Permite controlar mediante bluetooth el contenido multimedia que están viendo los niños que van en coche.
-        - title: Resolver Cifras y Letras
-          link: https://github.com/dmartinlozano/resolver_cifrasyletras_app
-          image: https://raw.githubusercontent.com/dmartinlozano/resolver_cifrasyletras_app/main/assets/icon_512x512.png
-          summary: |
-            Proyecto personal desarrollado en Flutter.
-            Resuelve el juego Cifras y Letras.
-            [Disponible también web para instalar](https://resolver-cifrasyletras.github.io/)  
-
 experiences:
     title: Experiencia laboral
     info:
       - role: Desarrollador software
-        time: 10/2023 - Actualidad
+        time: 01/2025 - actualidad
+        company: Paradigma Digital
+        client: O2
+        details: |
+          Desarrollador python con Django y FastAPI para la parte de back de la aplicación de O2 para la gestión de sus clientes (captación y area privada).
+        technologies:
+          title: Tecnologías
+          resume:
+            - Python 3
+            - Django
+            - FastAPI
+            - Postgres
+        frameworks:
+          title: Frameworks
+          resume:
+           - pyCharm
+           - AWS
+           - Windsurf
+      - role: Desarrollador software
+        time: 10/2023 - 12/2024
         company: Paradigma Digital
         client: BME
         details: |
